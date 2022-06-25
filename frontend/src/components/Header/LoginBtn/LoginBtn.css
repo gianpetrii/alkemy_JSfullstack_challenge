@@ -1,0 +1,13 @@
+.logBtn {
+  color: #06283D;
+  background-color: #47B5FF;
+  margin-right: 10px;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  border-radius: 5px;
+  border-width: 0;
+}
+.logBtn:hover {
+  color: white;
+  background-color: #1363DF;
+}

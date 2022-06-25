@@ -1,0 +1,69 @@
+* {
+  font-family: sans-serif;
+}
+
+  /* TITULO */
+.loginTitle {
+  font-size: 2.5em;
+  margin-left: 2.5%;
+}
+
+
+
+  /* GENERAL FORM */
+.loginForm {
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+  /* EMAIL */
+.loginEmailLabel {
+  font-size: 2em;
+  color: #06283D;
+}
+
+.loginEmailInput {
+  font-size: 2em;
+  border-radius: 5px;
+  color: #06283D;
+}
+
+  /* PASSWORD */
+.loginPassLabel {
+  font-size: 2em;
+  color: #06283D;
+}
+
+.loginPassInput {
+  font-size: 2em;
+  border-radius: 5px;
+  color: #06283D;
+}
+
+  /* BUTTON */
+.loginBtn {
+  font-size: 2em;
+  background-color: #06283D;
+  color: #47B5FF;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+.loginBtn:hover {
+  color: #1363DF;
+}
+
+
+
+
+  /* RESPONSIVE */
+@media all and (max-width: 420px) {
+    .loginEmailInput {
+      width: 90%;
+    }
+    .loginPassInput {
+      width: 90%;
+    }
+  }

@@ -1,0 +1,52 @@
+  /* GENERAL */
+main {
+  font-family: sans-serif;
+  background-color: #47B5FF;
+  width: 100%;
+}
+
+  /* TITULO */
+.tablaTitulo {
+
+  color: #06283D;
+  font-size: 2.5em;
+  margin-left: 2.5%;
+}
+
+  /* TABLA */
+.tablaContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#balance {
+  border-collapse: collapse;
+  width: 95%;
+}
+
+/* lineas de borde */
+#balance td, #balance th {  
+  border: 1px solid #06283D;
+  padding: 8px;
+}
+
+/* titulos */
+#balance th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #06283D;
+  color: #47B5FF;
+}
+
+/* filas */
+#balance tr {
+  color: #1363DF;
+  background-color: white;
+}
+
+/* cuando me paro arriba con mouse*/
+#balance tr:hover {
+  background-color: #DFF6FF;
+  color: #47B5FF;
+}

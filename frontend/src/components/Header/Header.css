@@ -1,0 +1,112 @@
+    /*  HEADER  */
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #06283D;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+
+    /*  logo  */
+.logo-container {
+    border-color: #47B5FF;
+    border: 1px;
+}
+img {
+    height: 35px;
+    width: 35px;
+    border-radius: 19.5px;
+    border: 2px solid;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+    /*  nav  */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    font-family:sans-serif;
+}
+li {
+    margin-left: 25px;
+}
+.navItem {
+    text-decoration: none;
+    color: #47B5FF;
+    margin-right: 10px;
+}
+.navItem:hover {
+    color: #1363DF;
+}
+
+
+    /* Menu Hamburguesa */
+.hamburger {
+    display: none;
+}
+
+
+    /* QUERY DE TAMAÑO DE PANTALLA */
+@media all and (max-width: 940px) {
+    .hamburger {
+        display:flex;
+        vertical-align: middle;
+        cursor: pointer;
+        margin-right: 10px;
+        height: 50px;
+        color: #47B5FF;
+    }
+    .hamburger:hover {
+        color: #1363DF;
+    }
+    .mobileMenuOn {
+        background-color: #06283D;
+        z-index: 100;
+        position: absolute;
+        top: 69px;
+        left: 0;
+        width: 100%;
+        height: 90vh;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.5s all ease; 
+
+    }
+    .mobileMenuOff {
+        background-color: #06283D;
+        z-index: 100;
+        position: absolute;
+        top: 69px;
+        left: -100%;
+        width: 100%;
+        height: 90vh;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.5s all ease; 
+    }
+    li {
+        margin-bottom: 10px;
+    }
+}
+    /*  BODY  */
+.texto {
+    margin-top: 80px;
+}
+
+
+
